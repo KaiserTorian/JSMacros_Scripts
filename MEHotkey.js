@@ -1,3 +1,5 @@
+// Hotkey //
+
 for (var i = 0; i < 46; i++) {
     var inv = Player.openInventory()
     var item = Player.openInventory().getSlot(i)
@@ -10,7 +12,7 @@ for (var i = 0; i < 46; i++) {
         inv.setSelectedHotbarSlotIndex(8)
         Time.sleep(50)
         Player.getInteractionManager().interact()
-        Time.sleep(50)
+        Time.sleep(100)
         inv.setSelectedHotbarSlotIndex(last_slot) 
     }
     

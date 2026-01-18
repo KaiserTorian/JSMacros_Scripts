@@ -1,3 +1,5 @@
+Todo: Rewrite every JavaScript with TypeScript
+
 ### MEHotkeys
 A script for the Pixeltopia server to open the ME system with just a hotkey
 Puts the ME system on the last hotbar slot. 
@@ -10,3 +12,7 @@ Must be used with the Tick event.
 When in ME system press search button when entering a text
 When in Search screen confrim search with the enter key  
 Must be used with the Tick event.
+
+### AutoPipe
+Works with the pipe system that uses pistons and signs. (Only works with chests)
+The target item should be in the chest.

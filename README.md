@@ -16,3 +16,6 @@ Must be used with the Tick event.
 ### AutoPipe
 Works with the pipe system that uses pistons and signs. (Only works with chests)
 The target item should be in the chest.
+
+### BlockSearch
+Searches all TileEntities in a chunk range and draws a box on the pos
